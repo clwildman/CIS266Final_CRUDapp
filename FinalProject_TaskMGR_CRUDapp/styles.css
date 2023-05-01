@@ -1,0 +1,38 @@
+
+body {
+    background-color: #dfdee0;
+}
+
+input[type='text'], select {
+    text-align: center;
+    border: solid 1px #CCC;
+    width: auto;
+    padding: 2px 3px;
+}
+
+input[type='button'] {
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+
+table {
+    border: 2px solid dimgray;
+    width: 100%;
+    display: grid;
+    color: dimgray;
+    font-family: monospace;
+    padding-right: 200px;
+    column-width: 100px;
+}
+
+th {
+    text-align: center;
+    font-size: 25px;
+}
+
+td {
+    font-size: 18px;
+    column-width: 400px;
+    border-top: 1px solid dimgray;
+}
